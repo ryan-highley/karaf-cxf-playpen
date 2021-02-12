@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ord="http://karaf_cxf_playpen.eipractice.redhat.com/">
+  <soapenv:Body>
+      <ord:order>
+         <arg0>motor</arg0>
+         <arg1>1</arg1>
+         <arg2>honda</arg2>
+      </ord:order>
+   </soapenv:Body>
+</soapenv:Envelope>
